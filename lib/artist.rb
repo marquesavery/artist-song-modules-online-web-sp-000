@@ -1,8 +1,7 @@
 require 'pry'
-# require_relative './config/environment.rb'
 
 class Artist
-  extend environment
+
 
   attr_accessor :name
   attr_reader :songs
